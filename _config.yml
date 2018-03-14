@@ -1,6 +1,3 @@
----
-title: Random Polyhedral Scenes: An Image Generator for Active Vision System Experiments
----
 theme: jekyll-theme-cayman
 plugins:
   - jemoji
