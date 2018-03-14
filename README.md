@@ -26,3 +26,10 @@ The example provided is written in Python 3 :snake::snake::snake: and can be fou
 
 ## Contact
 * polyhedral@eecs.yorku.ca
+
+## Notice
+* We provide no guarantees for system performance.
+* The system is provided as is.
+* Developed for research purposes only and commercial use is not permitted.
+* For comments, problems and questions, please send us an email (replies are not guaranteed).
+* If you use any aspect of this system, we respectfully request that all relevant publications that result from any use of this paper or system cite the [paper](https://arxiv.org).
