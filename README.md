@@ -1,7 +1,7 @@
 # [API] Random Polyhedral Scenes: An Image Generator for Active Vision System Experiments
 We present a Polyhedral Scene Generator system which creates a random scene based on a few user parameters, renders the scene from random view points and creates a dataset containing the renderings and corresponding annotation files. We think that this generator will help to understand how a program could parse a scene if it had multiple angle to compare. For ambiguous scenes, typically people move their head or change their position to see the scene from different angle as well as seeing how it changes while they move; a research field called active perception. The random scene generator presented is designed to support research in this field by generating images of scenes with known complexity characteristics and with verfieable properties with respect to the distribution of features across a population. Thus, it is well-suited for research in active perception without the requirement of a live 3D environment and mobile sensing agent as well as for comparative performance evaluations. :rocket:
 
-System: :point_right:[HERE](http://polyhedral.eecs.yorku.ca)
+System: :point_right: [HERE](http://polyhedral.eecs.yorku.ca)
 
 Paper: [HERE](https://arxiv.org) :point_left:
 
