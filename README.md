@@ -14,17 +14,7 @@ Six different scenes (left to right) rendered from three different views (top to
 This is the home of the application program interface (**API**) for the [Random Polyhedral Scenes: An Image Generator for Active Vision System Experiments](http://polyhedral.eecs.yorku.ca) system.
 The API is realized using WebSockets. Basically any programming language that supports WebSockets can be used :tada: (Java, C/C++, Python, MatLab, ...).
 
-The example provided is written in Python 3 :snake::snake::snake: and can be found [HERE](api_example.py).
-
-## Requirements for example script
-* ```websocket```
-* ```json```
-* ```base64```
-* ```io```
-* ```sys```
-
-## Optional for example script
-* ```PIL```
+The example provided is written in Python 3 :snake::snake::snake: and can be found [HERE](api_example.py) and below.
 
 ## Simple Example
 ```python
@@ -64,7 +54,15 @@ image_decoded = base64.b64decode(image_base64)
 # Close Connection
 ws.close()
 ```
+### Requirements for example script
+* ```websocket```
+* ```json```
+* ```base64```
+* ```io```
+* ```sys```
 
+### Optional for example script
+* ```PIL```
 
 ## Contact
 * polyhedral@eecs.yorku.ca
