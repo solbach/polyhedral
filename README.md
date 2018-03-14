@@ -6,7 +6,7 @@ System: :point_right: [HERE](http://polyhedral.eecs.yorku.ca)
 Paper: [HERE](https://arxiv.org) :point_left:
 
 ![Example Scenes](/img/scenes.jpg)
-Six different scenes (left to right) rendered from three different views (top to bottom). See [Paper](https://arxiv.org) for more information:heavy_exclamation_mark:
+Six different scenes (left to right) rendered from three different views (top to bottom). See the [paper](https://arxiv.org) for more information:heavy_exclamation_mark:
 
 ## What is this GitHub page about?
 This is the home of the application program interface (**API**) for the [Random Polyhedral Scenes: An Image Generator for Active Vision System Experiments](http://polyhedral.eecs.yorku.ca) system.
