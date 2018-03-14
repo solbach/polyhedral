@@ -23,3 +23,6 @@ The example provided is written in Python 3 :snake::snake::snake: and can be fou
 
 ## Optional for example script
 * ```PIL```
+
+## Contact
+* polyhedral@eecs.yorku.ca
