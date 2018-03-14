@@ -25,7 +25,7 @@ The example provided is written in Python 3 :snake::snake::snake: and can be fou
 * ```PIL```
 
 ## Simple Example
-```
+```python
 # Author: Markus Solbach (polyhedral@eecs.yorku.ca)
 from websocket import create_connection
 import io, sys, json, base64
