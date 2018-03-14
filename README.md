@@ -4,7 +4,7 @@ We present a Polyhedral Scene Generator system which creates a random scene base
 System: [HERE](http://polyhedral.eecs.yorku.ca)
 Paper: [HERE](https://arxiv.org)
 
-![Example Scenes](/images/scenes.jpg)
+![Example Scenes](/img/scenes.jpg)
 
 
 ## What is this GitHub page about?
