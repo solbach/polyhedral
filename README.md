@@ -24,6 +24,46 @@ The example provided is written in Python 3 :snake::snake::snake: and can be fou
 ## Optional for example script
 * ```PIL```
 
+## Simple Example
+```
+# Author: Markus Solbach (polyhedral@eecs.yorku.ca)
+from websocket import create_connection
+import io, sys, json, base64
+from json import dumps
+
+# Create Connection
+ws = create_connection("ws://polyhedral.eecs.yorku.ca/api/")
+parameter = {
+    'ID':'YOUR ID HERE',
+    'light_fixed':'true',
+    'random_cam': 'true',
+    'cam_x':-0.911,
+    'cam_y':1.238,
+    'cam_z':-4.1961,
+    'cam_qw':-0.0544,
+    'cam_qx':-0.307,
+    'cam_qy':0.9355,
+    'cam_qz':0.16599
+}
+json_params = dumps(parameter, indent=2)
+ws.send(json_params)
+
+while True:
+    result = json.loads(ws.recv())
+    print("Job Status: {0}".format(result['status']))
+    if result['status'] == "SUCCESS":
+        break
+    elif "FAILURE" in result['status'] or "INVALID" in result['status']:
+        sys.exit()
+
+image_base64 = result['image']
+image_decoded = base64.b64decode(image_base64)
+
+# Close Connection
+ws.close()
+```
+
+
 ## Contact
 * polyhedral@eecs.yorku.ca
 
