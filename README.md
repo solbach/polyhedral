@@ -55,7 +55,7 @@ image_decoded = base64.b64decode(image_base64)
 ws.close()
 ```
 ### Requirements for example script
-* ```websocket```
+* ```websocket-client```
 * ```json```
 * ```base64```
 * ```io```
