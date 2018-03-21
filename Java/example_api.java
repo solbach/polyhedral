@@ -20,7 +20,7 @@ import static java.lang.Thread.sleep;
 public class Main {
 
     public static void main(String[] args) throws URISyntaxException, JSONException, InterruptedException {
-        WebSocketClient ws = new WebSocketClient(new URI("ws://polyhedral.eecs.yorku.ca/api/"), new Draft_6455()) {
+        WebSocketClient ws = new WebSocketClient(new URI("wss://polyhedral.eecs.yorku.ca/api/"), new Draft_6455()) {
             @Override
             public void onMessage(String message) {
                 JSONObject obj = null;

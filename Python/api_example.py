@@ -8,7 +8,7 @@ except ImportError:
     print("PIL not installed on system. Running lightweight example.")
 
 # Create Connection
-ws = create_connection("ws://polyhedral.eecs.yorku.ca/api/")
+ws = create_connection("wss://polyhedral.eecs.yorku.ca/api/")
 
 # Mandatory
 parameter = {
