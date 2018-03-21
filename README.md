@@ -14,7 +14,7 @@ Six different scenes (left to right) rendered from three different views (top to
 This is the home of the application program interface (**API**) for the [Random Polyhedral Scenes: An Image Generator for Active Vision System Experiments](http://polyhedral.eecs.yorku.ca) system.
 The API is realized using WebSockets. Basically any programming language that supports WebSockets can be used :tada: (Java, C/C++, Python, MatLab, ...).
 We provide examples in [Python](https://github.com/solbach/polyhedral/tree/master/Python) :snake:, [MATLAB](https://github.com/solbach/polyhedral/tree/master/MATLAB) :microscope: and [Java](https://github.com/solbach/polyhedral/tree/master/Java) :coffee:.
-The example provided below is a minimal version of the Python :snake: example written in Python 3 :snake::snake::snake:.
+The example provided below is a minimal version of the [Python](https://github.com/solbach/polyhedral/tree/master/Python) :snake: example written in Python 3 :snake::snake::snake:.
 
 ## Simple Example (Python)
 ```python

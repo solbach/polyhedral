@@ -12,7 +12,7 @@ ws = create_connection("ws://polyhedral.eecs.yorku.ca/api/")
 
 # Mandatory
 parameter = {
-    'ID':'782fec97-83c0-42d2-b09b-7d3fe37b2317b',
+    'ID':'YOUR ID HERE',
     'light_fixed':'true',
     'random_cam': 'true',
     'cam_x':-0.911,

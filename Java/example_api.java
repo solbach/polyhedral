@@ -66,7 +66,7 @@ public class Main {
 
         ws.connect();
         JSONObject obj = new JSONObject();
-        obj.put("ID", "7db4f770-8295-431d-8358-f303356538aa");
+        obj.put("ID", "YOUR ID HERE");
         obj.put("light_fixed", "true");
         obj.put("random_cam", "true");
         obj.put("cam_x", -0.911);
