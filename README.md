@@ -29,7 +29,7 @@ import io, sys, json, base64
 from json import dumps
 
 # Create Connection
-ws = create_connection("ws://polyhedral.eecs.yorku.ca/api/")
+ws = create_connection("wss://polyhedral.eecs.yorku.ca/api/")
 parameter = {
     'ID':'YOUR ID HERE',
     'light_fixed':'true',
