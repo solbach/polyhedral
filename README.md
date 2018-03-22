@@ -21,7 +21,7 @@ We provide examples in
 
 The example provided below is a minimal version of the [Python](https://github.com/solbach/polyhedral/tree/master/Python) :snake: example written in Python 3 :snake::snake::snake:.
 
-## Simple Example (Python)
+## Minimal Example (Python)
 ```python
 # Author: Markus Solbach (polyhedral@eecs.yorku.ca)
 from websocket import create_connection
