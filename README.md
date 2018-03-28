@@ -5,10 +5,10 @@ We present a Polyhedral Scene Generator system which creates a random scene base
 
 System: :point_right: [HERE](http://polyhedral.eecs.yorku.ca)
 
-Paper: [HERE](https://arxiv.org) :point_left:
+Paper: [HERE](https://arxiv.org/pdf/1803.10100.pdf) :point_left:
 
 ![Example Scenes](/img/scenes.jpg)
-Six different scenes (left to right) rendered from three different views (top to bottom). See the [paper](https://arxiv.org) for more information:heavy_exclamation_mark:
+Six different scenes (left to right) rendered from three different views (top to bottom). See the [paper](https://arxiv.org/pdf/1803.10100.pdf) for more information:heavy_exclamation_mark:
 
 ## What is this GitHub page about?
 This is the home of the application program interface (**API**) for the [Random Polyhedral Scenes: An Image Generator for Active Vision System Experiments](http://polyhedral.eecs.yorku.ca) system.
@@ -77,4 +77,4 @@ ws.close()
 * The system is provided as is.
 * Developed for research purposes only and commercial use is not permitted.
 * For comments, problems and questions, please send us an email (replies are not guaranteed).
-* If you use any aspect of this system, we respectfully request that all relevant publications that result from any use of this paper or system cite the [paper](https://arxiv.org).
+* If you use any aspect of this system, we respectfully request that all relevant publications that result from any use of this paper or system cite the [paper](https://arxiv.org/pdf/1803.10100.pdf).
