@@ -1,25 +1,25 @@
 # [API] Random Polyhedral Scenes: An Image Generator for Active Vision System Experiments
 _Markus D. Solbach, Stephen Voland, Jeff Edmonds and John K. Tsotsos_
 
-We present a Polyhedral Scene Generator system which creates a random scene based on a few user parameters, renders the scene from random view points and creates a dataset containing the renderings and corresponding annotation files. We think that this generator will help to understand how a program could parse a scene if it had multiple angle to compare. For ambiguous scenes, typically people move their head or change their position to see the scene from different angle as well as seeing how it changes while they move; a research field called active perception. The random scene generator presented is designed to support research in this field by generating images of scenes with known complexity characteristics and with verfieable properties with respect to the distribution of features across a population. Thus, it is well-suited for research in active perception without the requirement of a live 3D environment and mobile sensing agent as well as for comparative performance evaluations. :rocket:
+We present a Polyhedral Scene Generator system which creates a random scene based on a few user parameters, renders the scene from random view points and creates a dataset containing the renderings and corresponding annotation files. We think that this generator will help to understand how a program could parse a scene if it had multiple angle to compare. For ambiguous scenes, typically people move their head or change their position to see the scene from different angle as well as seeing how it changes while they move; a research field called active perception. The random scene generator presented is designed to support research in this field by generating images of scenes with known complexity characteristics and with verfieable properties with respect to the distribution of features across a population. Thus, it is well-suited for research in active perception without the requirement of a live 3D environment and mobile sensing agent as well as for comparative performance evaluations.
 
-System: :point_right: [HERE](http://polyhedral.eecs.yorku.ca)
+System: [HERE](http://polyhedral.eecs.yorku.ca)
 
-Paper: [HERE](https://arxiv.org/pdf/1803.10100.pdf) :point_left:
+Paper: [HERE](https://arxiv.org/pdf/1803.10100.pdf)
 
 ![Example Scenes](/img/scenes.jpg)
-Six different scenes (left to right) rendered from three different views (top to bottom). See the [paper](https://arxiv.org/pdf/1803.10100.pdf) for more information:heavy_exclamation_mark:
+Six different scenes (left to right) rendered from three different views (top to bottom). See the [paper](https://arxiv.org/pdf/1803.10100.pdf) for more information.
 
 ## What is this GitHub page about?
 This is the home of the application program interface (**API**) for the [Random Polyhedral Scenes: An Image Generator for Active Vision System Experiments](http://polyhedral.eecs.yorku.ca) system.
-The API is realized using WebSockets. Basically any programming language that supports WebSockets can be used :tada: (Java, C/C++, Python, MatLab, ...).
+The API is realized using WebSockets. Basically any programming language that supports WebSockets can be used(Java, C/C++, Python, MatLab, ...).
 We provide examples in 
 
-* [**Python**](https://github.com/solbach/polyhedral/tree/master/Python) :snake:
-* [**MATLAB**](https://github.com/solbach/polyhedral/tree/master/MATLAB) :microscope: 
-* [**Java**](https://github.com/solbach/polyhedral/tree/master/Java) :coffee:
+* [**Python**](https://github.com/solbach/polyhedral/tree/master/Python)
+* [**MATLAB**](https://github.com/solbach/polyhedral/tree/master/MATLAB) 
+* [**Java**](https://github.com/solbach/polyhedral/tree/master/Java)
 
-The example provided below is a minimal version of the [Python](https://github.com/solbach/polyhedral/tree/master/Python) :snake: example written in Python 3 :snake::snake::snake:.
+The example provided below is a minimal version of the [Python](https://github.com/solbach/polyhedral/tree/master/Python) example written in Python 3.
 
 ## Minimal Example (Python)
 ```python
