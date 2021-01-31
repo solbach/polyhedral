@@ -1,16 +1,14 @@
-# Author: Markus Solbach (polyhedral@eecs.yorku.ca)
 from websocket import create_connection
 import io, sys, json, base64
 from json import dumps
-try:
-    from PIL import Image
-except ImportError:
-    print("PIL not installed on system. Running lightweight example.")
+from PIL import Image
+import cv2
+import numpy as np
 
 # Create Connection
 ws = create_connection("wss://polyhedral.eecs.yorku.ca/api/")
 
-# Mandatory
+# Set Parameters
 parameter = {
     'ID':'YOUR ID HERE',
     'light_fixed':'true',
@@ -23,10 +21,12 @@ parameter = {
     'cam_qy':0.9355,
     'cam_qz':0.16599
 }
-
 json_params = dumps(parameter, indent=2)
+
+# Send API request
 ws.send(json_params)
 
+# Wait patiently while checking status
 while True:
     result = json.loads(ws.recv())
     print("Job Status: {0}".format(result['status']))
@@ -35,18 +35,16 @@ while True:
     elif "FAILURE" in result['status'] or "INVALID" in result['status']:
         sys.exit()
 
+# Processing result
 image_base64 = result['image']
-image_decoded = base64.b64decode(image_base64)
-random_cam_param = result['cam_pose']
-print(random_cam_param)
+image_decoded = base64.b64decode(str(image_base64))
 
-fh = open("imageToSave.png", "wb")
-fh.write(image_decoded)
-fh.close()
-
-if 'PIL' in sys.modules:
-    im = Image.open(io.BytesIO(image_decoded))
-    im.show()
+# Create Open CV 2 Image
+image = Image.open(io.BytesIO(image_decoded))
+cv_image = cv2.cvtColor(np.array(image), cv2.COLOR_BGR2RGB)
+cv2.imshow('image',cv_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
 # Close Connection
 ws.close()
