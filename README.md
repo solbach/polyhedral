@@ -81,9 +81,9 @@ ws.close()
 * ```base64```
 * ```io```
 * ```sys```
-
-### Optional for example script
-* ```PIL```
+* ```opencv-python```
+* ```Pillow```
+* ```numpy```
 
 ## Contact
 * polyhedral@eecs.yorku.ca
