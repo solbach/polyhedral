@@ -7,7 +7,7 @@ import numpy as np
 
 # Create Connection
 ws = create_connection("wss://polyhedral.eecs.yorku.ca/api/")
-ws = create_connection("ws://230t.eecs.yorku.ca:8044/api/") # only available to students at YorkU (note: ws vs wss for the protocol)
+ws = create_connection("ws://nvision3.eecs.yorku.ca:8055/api/") # only available to students at YorkU (note: ws vs wss for the protocol)
 
 # Set Parameters
 parameter = {
